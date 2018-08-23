@@ -138,7 +138,7 @@ function drawMain(addressDetail, usdvalue) {
 
         // Attempt to get USD Value of wallet
         $.ajax({
-            url: 'http://cors-anywhere.herokuapp.com/https://www.folio.ninja/api/v1/quote?base=QRL&quote=USD&amount=' + addressDetail.state.balance,
+            url: 'http://www.folio.ninja/api/v1/quote?base=QRL&quote=USD&amount=' + addressDetail.state.balance,
             dataType: 'json',
             jsonpCallback: 'callback',
             success: function(folioNinjaReply) {
