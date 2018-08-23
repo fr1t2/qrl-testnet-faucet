@@ -1,7 +1,7 @@
 // Current detail wallet address
 var currentDetailAddress = 0;
 
-var faucetUrl = "http://qrl.tips";
+var faucetUrl = "http://qrl.tips/test";
 var apiUrl = "http://127.0.0.1:8070/api/";
 var faucetAddress = "Q010600b762fa77027a5211b41990b6cb60ada1685cc92dc11e93aac5942c273b42f8e077990def";
 
@@ -44,7 +44,7 @@ function drawTransRow(timestamp, amount, txHashLink, block, txfrom, txto, fee, a
 
 
 
-// Gets detail about the running node
+/*/ Gets detail about the running node
 function getNodeInfo(hideDimmer = false) {
     // Change view state
     viewState = 1;
@@ -92,7 +92,7 @@ function getNodeInfo(hideDimmer = false) {
         }
     });
 }
-
+/*/
 
 // Draws address detail to page
 function drawMain(addressDetail, usdvalue) {
