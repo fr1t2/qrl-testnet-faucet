@@ -136,7 +136,7 @@ function drawMain(addressDetail, usdvalue) {
         });
         TransT.columns.adjust().draw(true);
 
-        // Attempt to get USD Value of wallet
+        /*/ Attempt to get USD Value of wallet
         $.ajax({
             url: 'http://www.folio.ninja/api/v1/quote?base=QRL&quote=USD&amount=' + addressDetail.state.balance,
             dataType: 'json',
@@ -144,7 +144,7 @@ function drawMain(addressDetail, usdvalue) {
             success: function(folioNinjaReply) {
                 $('#usdvalue').text("$" + folioNinjaReply.response.quote);
             }
-        });
+        }); /*/
     } else {
         TransT.clear();
         TransT.columns.adjust().draw(true);
