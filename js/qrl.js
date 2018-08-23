@@ -1,9 +1,9 @@
 // Current detail wallet address
 var currentDetailAddress = 0;
 
-var faucetUrl = "http://qrl-faucet.folio.ninja/";
-var apiUrl = "http://qrl-faucet.folio.ninja:8080/api/";
-var faucetAddress = "Q2fa73c159a71a84934d91180aa86f954a369b01f6f7c760ebee949b73db6048f7caf";
+var faucetUrl = "http://qrl.tips";
+var apiUrl = "http://127.0.0.1:8070/api/";
+var faucetAddress = "Q010600b762fa77027a5211b41990b6cb60ada1685cc92dc11e93aac5942c273b42f8e077990def";
 
 
 // Init Transactions table
