@@ -127,10 +127,10 @@ function drawMain(addressDetail, usdvalue) {
             var thisSubType = (object.subtype === undefined) ? "Unknown" : object.subtype;
 
             // Generate links
-            thisBlock = '<a target="_blank" href="http://qrlexplorer.info/block/'+thisBlock+'">'+thisBlock+'</a>';
-            txHashLink = '<a target="_blank" href="http://qrlexplorer.info/tx/'+thisTxHash+'">'+thisTxHash+'</a>';
-            thisTxFrom = '<a target="_blank" href="http://qrlexplorer.info/a/'+thisTxFrom+'">'+thisTxFrom+'</a>';
-            thisTxTo = '<a target="_blank" href="http://qrlexplorer.info/a/'+thisTxTo+'">'+thisTxTo+'</a>';
+            thisBlock = '<a target="_blank" href="https://explorer.theqrl.org/block/'+thisBlock+'">'+thisBlock+'</a>';
+            txHashLink = '<a target="_blank" href="https://explorer.theqrl.org/tx/'+thisTxHash+'">'+thisTxHash+'</a>';
+            thisTxFrom = '<a target="_blank" href="https://explorer.theqrl.org/a/'+thisTxFrom+'">'+thisTxFrom+'</a>';
+            thisTxTo = '<a target="_blank" href="https://explorer.theqrl.org/a/'+thisTxTo+'">'+thisTxTo+'</a>';
 
             drawTransRow(thisTimestamp, thisAmount, txHashLink, thisBlock, thisTxFrom, thisTxTo, thisFee, thisAddress, thisSubType);
         });
